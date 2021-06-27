@@ -2,20 +2,20 @@
 Calculates system-level capital cost of a SSFB system. Example for Zn-Mn SSFB with 4.2v% CB + 11 v% MnO2 as positive semi-solid electrode is given here.
 
 **Calculation files**
-1. Capital_cost.m
+1. Capital_cost.m\
 Calculates capital cost for different discharge durations using cost of power calculated from ssfbcostanalysis.m and cost of energy
 
-2. ssfbcostanalysis.m 
+2. ssfbcostanalysis.m\
 Optimizes channel height and number of cells for the lowest cost of power for three cost estimates (upper, mid, lower)
 
-3. nonlinconstr_SSFB.m
+3. nonlinconstr_SSFB.m\
 Optimization constraint called by ssfbcostanalysis.m file
 
 **Input files**
-1. Catholyte_4p2CB 11MnO2.mat (_upper.mat, _lower.mat)
+1. Catholyte_4p2CB 11MnO2.mat (_upper.mat, _lower.mat)\
 Cost of energy and other inputs to calculate cost of energy using "Derived constants.m"
 
-2. Cost components for power_mid.mat (_upper.mat, _lower.mat)
+2. Cost components for power_mid.mat (_upper.mat, _lower.mat)\
 Cost of power inputs
 
 **Instruction**
