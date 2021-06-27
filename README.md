@@ -19,5 +19,5 @@ Cost of energy and other inputs to calculate cost of energy using "Derived const
 Cost of power inputs
 
 **Instruction**
-1. Download the folder and run Capital_cost.m file to find overnight capital cost of Zn-Mn SSFB with 4.2v% CB + 11 v% MnO2 as positive semi-solid electrode.
+1. Download the folder and run Capital_cost.m file to find the overnight capital cost of Zn-Mn SSFB with 4.2v% CB + 11 v% MnO2 as positive semi-solid electrode.
 2. Costs of other electrode compositions can be calculated by updating the input files accordingly.
