@@ -1,5 +1,5 @@
 # SSFB_cost_calculation
-Calculates system-level capital cost of a SSFB system
+Calculates system-level capital cost of a SSFB system. Example for Zn-Mn SSFB with 4.2v% CB + 11 v% MnO2 as positive semi-solid electrode is given here.
 
 **Calculation files**
 1. Capital_cost.m
