@@ -14,7 +14,8 @@ Final_CC_energy(3,1) = C_energy;
 
 clearvars -except Final_CC_energy 
 
-load('!Results_future_4p2CB 11MnO2_n_cell_pump_100')
+% load('!Results_future_4p2CB 11MnO2_n_cell_pump_100')
+[Final_eta_sys,Final_cost_sep,Final_cost_collector,Final_cost_seals,Final_cost_pump,Final_cost_pcs,Final_cost_hex,Final_cost_transformer,Final_cost_interconnection,Final_number_of_cells,Final_channel_height,Final_ASR,exitflag,T] = ssfbcostanalysis;
 
 Final_CC_stack = Final_cost_collector + Final_cost_sep + Final_cost_seals;
 Final_CC_BOP = Final_cost_pump + Final_cost_pcs + Final_cost_hex + Final_cost_transformer + Final_cost_interconnection;
@@ -37,8 +38,8 @@ clearvars -except Final_CC_energy Final_CC_stack Final_CC_BOP Final_CC_power Cos
 
 duration = transpose(duration);
 Final_CC = transpose(Final_CC);
-T = table(duration,Final_CC(:,1),Final_CC(:,2),Final_CC(:,3));
+Final_CC_duration = table(duration,Final_CC(:,1),Final_CC(:,2),Final_CC(:,3));
 
-filename = '!Results_capitalcost_future_4p2CB 11MnO2_n_cell_pump_100.mat';
+filename = '!Results_capitalcost_4p2CB 11MnO2_n_cell_pump_100.mat';
 save(filename)
 

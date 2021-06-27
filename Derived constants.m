@@ -1,7 +1,6 @@
 
 % Derived constants
 
-
 molarity_am_pos = vol_frac_am_pos * (rho_pos_am) / molecular_weight_pos_am; %in mol/L
 catholyte_rho_e = no_of_elec_pos * molarity_am_pos * 1000 * F * catholyte_phi_eq * eta_v; %in J/m3
 anolyte_rho_e = catholyte_rho_e; %in J/m3
