@@ -6,7 +6,7 @@ Calculates system-level capital cost of a SSFB system. Example for Zn-Mn SSFB wi
 Calculates capital cost for different discharge durations using cost of power calculated from ssfbcostanalysis.m and cost of energy
 
 2. ssfbcostanalysis.m 
-Optimizes channel height for lowest cost of power for three cost estimates (upper, mid, lower)
+Optimizes channel height and number of cells for the lowest cost of power for three cost estimates (upper, mid, lower)
 
 3. nonlinconstr_SSFB.m
 Optimization constraint called by ssfbcostanalysis.m file
